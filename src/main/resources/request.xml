@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://order.com/validation">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:getUserRequest>
+            <gs:name>Addy</gs:name>
+        </gs:getUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
